@@ -13,6 +13,10 @@
 		1836014422AA14BB005D6582 /* CollegeDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1836014222AA14BB005D6582 /* CollegeDB.xcdatamodeld */; };
 		1836014622AA14BD005D6582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1836014522AA14BD005D6582 /* Assets.xcassets */; };
 		1836014922AA14BD005D6582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1836014722AA14BD005D6582 /* LaunchScreen.storyboard */; };
+		1836015122AA16E7005D6582 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836015022AA16E7005D6582 /* DBManager.swift */; };
+		1836015322AA1941005D6582 /* CollegeEntryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836015222AA1941005D6582 /* CollegeEntryTableViewController.swift */; };
+		1836015622AA225B005D6582 /* College+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836015422AA225B005D6582 /* College+CoreDataClass.swift */; };
+		1836015722AA225B005D6582 /* College+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836015522AA225B005D6582 /* College+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		1836014522AA14BD005D6582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1836014822AA14BD005D6582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1836014A22AA14BD005D6582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1836015022AA16E7005D6582 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		1836015222AA1941005D6582 /* CollegeEntryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeEntryTableViewController.swift; sourceTree = "<group>"; };
+		1836015422AA225B005D6582 /* College+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "College+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1836015522AA225B005D6582 /* College+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "College+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,8 @@
 		1836012F22AA14BB005D6582 = {
 			isa = PBXGroup;
 			children = (
+				1836015422AA225B005D6582 /* College+CoreDataClass.swift */,
+				1836015522AA225B005D6582 /* College+CoreDataProperties.swift */,
 				1836013A22AA14BB005D6582 /* CollegeDB */,
 				1836013922AA14BB005D6582 /* Products */,
 			);
@@ -58,6 +68,8 @@
 			children = (
 				1836013B22AA14BB005D6582 /* AppDelegate.swift */,
 				1836013D22AA14BB005D6582 /* ViewController.swift */,
+				1836015222AA1941005D6582 /* CollegeEntryTableViewController.swift */,
+				1836015022AA16E7005D6582 /* DBManager.swift */,
 				1836013F22AA14BB005D6582 /* Main.storyboard */,
 				1836014522AA14BD005D6582 /* Assets.xcassets */,
 				1836014722AA14BD005D6582 /* LaunchScreen.storyboard */,
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1836015722AA225B005D6582 /* College+CoreDataProperties.swift in Sources */,
 				1836013E22AA14BB005D6582 /* ViewController.swift in Sources */,
 				1836013C22AA14BB005D6582 /* AppDelegate.swift in Sources */,
+				1836015322AA1941005D6582 /* CollegeEntryTableViewController.swift in Sources */,
+				1836015622AA225B005D6582 /* College+CoreDataClass.swift in Sources */,
 				1836014422AA14BB005D6582 /* CollegeDB.xcdatamodeld in Sources */,
+				1836015122AA16E7005D6582 /* DBManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
