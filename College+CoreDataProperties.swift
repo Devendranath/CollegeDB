@@ -10,9 +10,10 @@
 import Foundation
 import CoreData
 
-
+// This is college entity.
 extension College {
 
+    
     @nonobjc public class func fetchRequest() -> NSFetchRequest<College> {
         return NSFetchRequest<College>(entityName: "College")
     }
