@@ -10,6 +10,7 @@ import UIKit
 import ProgressHUD
 
 class ViewController: UIViewController {
+
     
     var selectedCollege: College! = nil
     @IBOutlet weak var tableView: UITableView!

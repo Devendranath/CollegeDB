@@ -1,0 +1,6 @@
+framework module Pods_CollegeDB {
+  umbrella header "Pods-CollegeDB-umbrella.h"
+
+  export *
+  module * { export * }
+}
