@@ -5,13 +5,16 @@
         <attribute name="established" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="phone" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="students" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Student" inverseName="myCollege" inverseEntity="Student" syncable="YES"/>
     </entity>
-    <entity name="Student" representedClassName="Student" syncable="YES" codeGenerationType="class">
+    <entity name="Student" representedClassName="Student" syncable="YES">
+        <attribute name="branch" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="rollNo" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="myCollege" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="College" inverseName="students" inverseEntity="College" syncable="YES"/>
     </entity>
     <elements>
-        <element name="College" positionX="-63" positionY="-18" width="128" height="103"/>
-        <element name="Student" positionX="-45" positionY="27" width="128" height="75"/>
+        <element name="College" positionX="-63" positionY="-18" width="128" height="118"/>
+        <element name="Student" positionX="237.58203125" positionY="25.62890625" width="128" height="103"/>
     </elements>
 </model>

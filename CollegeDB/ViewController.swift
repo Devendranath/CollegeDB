@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import ProgressHUD
 
 class ViewController: UIViewController {
-
+    
+    var selectedCollege: College! = nil
     @IBOutlet weak var tableView: UITableView!
     var colleges: [College]? = []
     
@@ -23,9 +25,20 @@ class ViewController: UIViewController {
     }
     
     func refreshColleges() {
+        ProgressHUD.show("Loading Students")
+        
         colleges = DBManager.sharedManager.getColleges(entity: College.self) as? [College]
         tableView.reloadData()
+//        ProgressHUD.dismiss()
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let svc = segue.destination as? StudentsViewController {
+            svc.college = selectedCollege
+            svc.students = Array(selectedCollege.students ?? []) as! [Student]
+        }
+    }
+    
 }
 
 extension ViewController: UITableViewDataSource, UITableViewDelegate {
@@ -40,6 +53,11 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         cell?.textLabel?.text = aCollege.name
         cell?.detailTextLabel?.text = aCollege.address
         return cell ?? UITableViewCell()        
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        selectedCollege = colleges?[indexPath.row]
+        self.performSegue(withIdentifier: "ShowStudents", sender: nil)
     }
 }
 

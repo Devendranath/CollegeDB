@@ -15,11 +15,16 @@
 		1836014922AA14BD005D6582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1836014722AA14BD005D6582 /* LaunchScreen.storyboard */; };
 		1836015122AA16E7005D6582 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836015022AA16E7005D6582 /* DBManager.swift */; };
 		1836015322AA1941005D6582 /* CollegeEntryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836015222AA1941005D6582 /* CollegeEntryTableViewController.swift */; };
-		1836015622AA225B005D6582 /* College+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836015422AA225B005D6582 /* College+CoreDataClass.swift */; };
-		1836015722AA225B005D6582 /* College+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836015522AA225B005D6582 /* College+CoreDataProperties.swift */; };
+		1836016C22AB6AD7005D6582 /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836016822AB6AD7005D6582 /* Student+CoreDataClass.swift */; };
+		1836016D22AB6AD7005D6582 /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836016922AB6AD7005D6582 /* Student+CoreDataProperties.swift */; };
+		1836016E22AB6AD7005D6582 /* College+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836016A22AB6AD7005D6582 /* College+CoreDataClass.swift */; };
+		1836016F22AB6AD7005D6582 /* College+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836016B22AB6AD7005D6582 /* College+CoreDataProperties.swift */; };
+		1836017122AB6B35005D6582 /* StudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836017022AB6B35005D6582 /* StudentsViewController.swift */; };
+		A8F5C4BE3DB2D42E9B672854 /* Pods_CollegeDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF47C9B35F438CFD47E639A0 /* Pods_CollegeDB.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17B39B98D8B0F0E7D25D92B1 /* Pods-CollegeDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollegeDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollegeDB/Pods-CollegeDB.release.xcconfig"; sourceTree = "<group>"; };
 		1836013822AA14BB005D6582 /* CollegeDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollegeDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1836013B22AA14BB005D6582 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1836013D22AA14BB005D6582 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,8 +35,13 @@
 		1836014A22AA14BD005D6582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1836015022AA16E7005D6582 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		1836015222AA1941005D6582 /* CollegeEntryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeEntryTableViewController.swift; sourceTree = "<group>"; };
-		1836015422AA225B005D6582 /* College+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "College+CoreDataClass.swift"; sourceTree = "<group>"; };
-		1836015522AA225B005D6582 /* College+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "College+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1836016822AB6AD7005D6582 /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1836016922AB6AD7005D6582 /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1836016A22AB6AD7005D6582 /* College+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "College+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1836016B22AB6AD7005D6582 /* College+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "College+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1836017022AB6B35005D6582 /* StudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsViewController.swift; sourceTree = "<group>"; };
+		9EDC0E6AA912B6B18ED74A21 /* Pods-CollegeDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollegeDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CollegeDB/Pods-CollegeDB.debug.xcconfig"; sourceTree = "<group>"; };
+		FF47C9B35F438CFD47E639A0 /* Pods_CollegeDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollegeDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8F5C4BE3DB2D42E9B672854 /* Pods_CollegeDB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,10 +59,10 @@
 		1836012F22AA14BB005D6582 = {
 			isa = PBXGroup;
 			children = (
-				1836015422AA225B005D6582 /* College+CoreDataClass.swift */,
-				1836015522AA225B005D6582 /* College+CoreDataProperties.swift */,
 				1836013A22AA14BB005D6582 /* CollegeDB */,
 				1836013922AA14BB005D6582 /* Products */,
+				65834262D6FC446984B5FA39 /* Pods */,
+				9124FBE8A3EF2A4AA7E074BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,9 +77,14 @@
 		1836013A22AA14BB005D6582 /* CollegeDB */ = {
 			isa = PBXGroup;
 			children = (
+				1836016822AB6AD7005D6582 /* Student+CoreDataClass.swift */,
+				1836016922AB6AD7005D6582 /* Student+CoreDataProperties.swift */,
+				1836016A22AB6AD7005D6582 /* College+CoreDataClass.swift */,
+				1836016B22AB6AD7005D6582 /* College+CoreDataProperties.swift */,
 				1836013B22AA14BB005D6582 /* AppDelegate.swift */,
 				1836013D22AA14BB005D6582 /* ViewController.swift */,
 				1836015222AA1941005D6582 /* CollegeEntryTableViewController.swift */,
+				1836017022AB6B35005D6582 /* StudentsViewController.swift */,
 				1836015022AA16E7005D6582 /* DBManager.swift */,
 				1836013F22AA14BB005D6582 /* Main.storyboard */,
 				1836014522AA14BD005D6582 /* Assets.xcassets */,
@@ -79,6 +95,23 @@
 			path = CollegeDB;
 			sourceTree = "<group>";
 		};
+		65834262D6FC446984B5FA39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EDC0E6AA912B6B18ED74A21 /* Pods-CollegeDB.debug.xcconfig */,
+				17B39B98D8B0F0E7D25D92B1 /* Pods-CollegeDB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9124FBE8A3EF2A4AA7E074BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF47C9B35F438CFD47E639A0 /* Pods_CollegeDB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1836014D22AA14BD005D6582 /* Build configuration list for PBXNativeTarget "CollegeDB" */;
 			buildPhases = (
+				8C5E099940B0443455BBDC96 /* [CP] Check Pods Manifest.lock */,
 				1836013422AA14BB005D6582 /* Sources */,
 				1836013522AA14BB005D6582 /* Frameworks */,
 				1836013622AA14BB005D6582 /* Resources */,
+				97068BE31F9669BEFE829653 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,18 +180,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8C5E099940B0443455BBDC96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CollegeDB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97068BE31F9669BEFE829653 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CollegeDB/Pods-CollegeDB-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CollegeDB/Pods-CollegeDB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1836013422AA14BB005D6582 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1836015722AA225B005D6582 /* College+CoreDataProperties.swift in Sources */,
 				1836013E22AA14BB005D6582 /* ViewController.swift in Sources */,
+				1836016C22AB6AD7005D6582 /* Student+CoreDataClass.swift in Sources */,
 				1836013C22AA14BB005D6582 /* AppDelegate.swift in Sources */,
 				1836015322AA1941005D6582 /* CollegeEntryTableViewController.swift in Sources */,
-				1836015622AA225B005D6582 /* College+CoreDataClass.swift in Sources */,
+				1836016F22AB6AD7005D6582 /* College+CoreDataProperties.swift in Sources */,
 				1836014422AA14BB005D6582 /* CollegeDB.xcdatamodeld in Sources */,
+				1836016E22AB6AD7005D6582 /* College+CoreDataClass.swift in Sources */,
 				1836015122AA16E7005D6582 /* DBManager.swift in Sources */,
+				1836017122AB6B35005D6582 /* StudentsViewController.swift in Sources */,
+				1836016D22AB6AD7005D6582 /* Student+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +385,7 @@
 		};
 		1836014E22AA14BD005D6582 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EDC0E6AA912B6B18ED74A21 /* Pods-CollegeDB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -317,6 +403,7 @@
 		};
 		1836014F22AA14BD005D6582 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B39B98D8B0F0E7D25D92B1 /* Pods-CollegeDB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

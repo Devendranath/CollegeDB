@@ -2,7 +2,7 @@
 //  College+CoreDataClass.swift
 //  CollegeDB
 //
-//  Created by apple on 07/06/19.
+//  Created by apple on 08/06/19.
 //  Copyright © 2019 iOSProofs. All rights reserved.
 //
 //
